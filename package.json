@@ -8,14 +8,14 @@
     "jscs",
     "server"
   ],
-  "author": "Chyld Medford <chyld.medford@gmail.com>",
+  "author": "Jose Zamudio <jose@josezamudio.me>",
   "repository": {
     "type": "git",
-    "url": "git://github.com/coding-house-jan2015/prototype.git"
+    "url": "git://github.com/soyzamudio/tutorial.git"
   },
   "version": "1.0.0",
   "scripts": {
-    "start": "PORT=3333 node server/app.js",
+    "start": "PORT=3333 nodemon server/app.js",
     "clean": "rm -rf node_modules && rm -rf public && npm install && bower install && gulp build"
   },
   "license": "MIT",
